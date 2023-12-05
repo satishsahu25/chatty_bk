@@ -13,9 +13,9 @@ const path=require("path");
 app.use(cors());
 app.use(express.json());
 
-app.use("/",(req,res)=>{
-  res.send("hello from server");
-})
+// app.use("/",(req,res)=>{
+//   res.send("hello from server");
+// })
 
 //apis
 app.use("/api/auth", userrouter);
